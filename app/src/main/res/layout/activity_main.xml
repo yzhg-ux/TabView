@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.yzhg.tabview.ObservableScrollView
+        android:id="@+id/svLayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:id="@+id/llHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:background="@color/colorAccent">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:background="@mipmap/ic_launcher" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:background="#B32727" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:background="#35DA65" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:background="#131111" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:background="#EA3702" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:background="@mipmap/ic_launcher" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:background="#2B0202" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:background="#DDDB34" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:background="#F00F50" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:background="#90544A" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:background="#EA3702" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:background="@mipmap/ic_launcher" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:background="#2B0202" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:background="#DDDB34" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:background="#F00F50" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:background="#90544A" />
+        </LinearLayout>
+
+    </com.yzhg.tabview.ObservableScrollView>
+
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="200dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/svLayout">
+
+        <View
+            android:id="@+id/view_scroll"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@color/colorPrimaryDark"
+            app:layout_constraintBottom_toBottomOf="@+id/view_bg"
+            app:layout_constraintLeft_toLeftOf="@+id/view_bg"
+            app:layout_constraintTop_toTopOf="@+id/view_bg" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
